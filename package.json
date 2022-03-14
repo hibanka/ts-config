@@ -1,10 +1,12 @@
 {
   "name": "@hibanka/ts-config",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Shared TypeScript config",
   "repository": "https://github.com/Hibanka/ts-config",
   "main": "tsconfig.json",
-  "files": ["tsconfig.json"],
+  "files": [
+    "tsconfig.json"
+  ],
   "engines": {
     "node": ">=16"
   }
