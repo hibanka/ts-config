@@ -4,8 +4,6 @@ Shared **TypeScript config**.
 
 ## Installation
 
-Install via npm:
-
 ```sh
 npm install --save-dev @hibanka/ts-config
 ```
