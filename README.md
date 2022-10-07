@@ -1,24 +1,25 @@
 # @hibanka/ts-config
 
-[![NPM Version](https://badgen.net/npm/v/@hibanka/prettier-config)](https://npmjs.com/package/@hibanka/prettier-config)
-[![Minimum Node.js Version](https://badgen.net/npm/node/@hibanka/prettier-config)](https://npmjs.com/package/@hibanka/prettier-config)
+[![NPM Version](https://badgen.net/npm/v/@hibanka/ts-config)](https://npmjs.com/package/@hibanka/ts-config)
+[![Minimum Node.js Version](https://badgen.net/npm/node/@hibanka/ts-config)](https://npmjs.com/package/@hibanka/ts-config)
 
-Shared **TypeScript config**.
+Node.js shared config for TypeScript
 
 ## Installation
 
-```sh
+```bash
 npm install --save-dev @hibanka/ts-config
 ```
 
----
-
 ## Usage
 
-You can use config by extending it:
+You can use config by extending it in your `tsconfig.json`:
 
 ```json
 {
-	"extends": "@hibanka/ts-config"
+  "extends": "@hibanka/ts-config",
+  "compilerOptions": {
+    "outDir": "dist"
+  }
 }
 ```
