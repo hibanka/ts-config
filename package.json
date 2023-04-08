@@ -1,6 +1,6 @@
 {
   "name": "@hibanka/ts-config",
-  "version": "3.5.0",
+  "version": "4.0.0",
   "description": "Node.js shared config for TypeScript",
   "repository": "https://github.com/Hibanka/ts-config",
   "main": "tsconfig.json",
